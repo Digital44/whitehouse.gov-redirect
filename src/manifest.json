@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Whitehouse.gov Archive Helper",
   "short_name": "WH.gov Redirect",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Redirects to the archived whitehouse.gov if the current whitehouse.gov 404s",
   "author": "David Chang",
   "homepage_url": "https://github.com/liyanchang/whitehouse.gov-redirect",
