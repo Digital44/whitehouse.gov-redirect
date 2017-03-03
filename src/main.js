@@ -1,5 +1,5 @@
 chrome.webRequest.onCompleted.addListener(function(details) {
-        if (details.statusCode == 404) {
+        if (details.statusCode == 404 || details.statusCode == 403) {
             chrome.tabs.query({'active': true}, function(tabs) {
 
                 // Detect if this is the url in the tab. Avoid redirects when
